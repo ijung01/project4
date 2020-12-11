@@ -3,7 +3,6 @@
   border-top-width: 2px;
   border-top-style: solid;
   color: $color-text-body;
-  padding-top: 64px;
 
   a {
     $border-color: $color-slate;
@@ -45,19 +44,18 @@
 
 .site-footer-content {
   font-size: 12px;
-  height: 200px; 
+  height: 100%; 
   display: flex; 
 }
 
 .site-footer-section {
   flex: 1; 
-
 }
 
 .site-footer-copyright {
   background: $color-purple;
   color: $color-offwhite; 
+  height: 36px;
   font-size: 10px;
-  height: 50px;
-  text-align: center; 
+  padding: 12px 120px;
 }     
