@@ -39,11 +39,25 @@
       color: $color-text-link;
     }
   }
+
+  address {
+    font-style: normal; 
+    p {
+    padding: 0px; 
+    margin: 0px;   
+    }
+  }
 }
 
 .site-footer-content {
   border: 1px solid $color-grey; 
   height: 200px; 
+  display: flex; 
+}
+
+.site-footer-section {
+  flex: 1; 
+  border: 1px solid $color-grey;
 }
 
 .site-footer-copyright {
