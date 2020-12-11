@@ -11,12 +11,12 @@ html {
 body {
   background-color: $color-offwhite;
   color: $color-text-body;
-  font-family: "Commissioner", sans-serif;
+  font-family: "noto-sans-display", sans-serif;
   font-weight: 500;
   margin: 0;
 }
 
 main {
   flex: 1 0 auto;
-  padding: 120px 120px; 
+  padding: 10vh 10vw; 
 }

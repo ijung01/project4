@@ -3,6 +3,7 @@
   border-top-width: 2px;
   border-top-style: solid;
   color: $color-text-body;
+  font-weight: 500; 
 
   a {
     $border-color: $color-slate;
@@ -51,7 +52,6 @@
 
 .site-footer-section {
   flex: 1; 
-  border: 2px solid $color-purple;
 }
 
 .site-footer-copyright {
