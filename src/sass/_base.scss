@@ -9,14 +9,16 @@ html {
 }
 
 body {
-  background-color: $color-grey;
+  background-color: $color-offwhite;
   color: $color-text-body;
   font-family: "Commissioner", sans-serif;
   font-weight: 500;
   margin: 0;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 main {
   flex: 1 0 auto;
-  padding: 24px 18px;
+  padding-top: 120px; 
 }
