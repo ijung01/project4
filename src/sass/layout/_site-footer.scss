@@ -1,5 +1,4 @@
 .site-footer {
-  color: $color-text-body;
   border-image: linear-gradient(to right,
       transparent 12px,
       $color-grey 12px,
@@ -7,8 +6,15 @@
       transparent 90%) 100% 1;
   border-top-width: 2px;
   border-top-style: solid;
+  color: $color-text-body;
   margin-top: 64px;
   padding: 12px 18px;
+
+  &.copyright {
+    background: $color-purple;
+
+    text-align: center; 
+  }     
 
   a {
     $border-color: $color-slate;
