@@ -13,6 +13,7 @@ body {
   color: $color-text-body;
   font-family: "noto-sans-display", sans-serif;
   font-weight: 500;
+  line-height: 1.4;
   margin: 0;
 }
 
@@ -20,3 +21,6 @@ main {
   flex: 1 0 auto;
   padding: 10vh 10vw; 
 }
+
+// "neue-haas-unica" 
+// "noto-sans-display"
