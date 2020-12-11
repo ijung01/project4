@@ -43,9 +43,10 @@
 }
 
 .site-footer-content {
-  font-size: 12px;
-  height: 100%; 
   display: flex; 
+  font-size: 12px;
+  height: 180px; 
+  padding: 64px 120px;
 }
 
 .site-footer-section {
@@ -55,7 +56,7 @@
 .site-footer-copyright {
   background: $color-purple;
   color: $color-offwhite; 
-  height: 36px;
+  height: 3vh;
   font-size: 10px;
   padding: 12px 120px;
 }     
