@@ -7,6 +7,7 @@
   border-top-width: 2px;
   border-top-style: solid;
   color: $color-text-body;
+  font-size: 12px;
   margin-top: 64px;
   padding: 12px 18px;
 
@@ -40,8 +41,14 @@
   }
 }
 
+.site-footer-content {
+  border: 1px solid $color-grey; 
+  height: 200px; 
+}
+
 .site-footer-copyright {
   background: $color-purple;
   color: $color-offwhite; 
   height: 50px;
+  text-align: center; 
 }     
