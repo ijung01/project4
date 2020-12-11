@@ -1,4 +1,5 @@
 .site-footer {
+  border-top-color: $color-purple-transparent; 
   border-top-width: 2px;
   border-top-style: solid;
   color: $color-text-body;
@@ -43,7 +44,6 @@
 }
 
 .site-footer-content {
-  border: 1px solid $color-grey; 
   font-size: 12px;
   height: 200px; 
   display: flex; 
@@ -51,7 +51,7 @@
 
 .site-footer-section {
   flex: 1; 
-  border: 1px solid $color-grey;
+
 }
 
 .site-footer-copyright {
