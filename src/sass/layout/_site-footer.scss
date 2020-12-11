@@ -45,12 +45,13 @@
 .site-footer-content {
   display: flex; 
   font-size: 12px;
-  height: 180px; 
-  padding: 64px 120px;
+  height: 18vh; 
+  padding: 0px 10vw; 
 }
 
 .site-footer-section {
   flex: 1; 
+  border: 2px solid $color-grey;
 }
 
 .site-footer-copyright {
@@ -58,5 +59,6 @@
   color: $color-offwhite; 
   height: 3vh;
   font-size: 10px;
-  padding: 12px 120px;
+  padding-top: 1vh
+  padding-bottom:1vh;
 }     
