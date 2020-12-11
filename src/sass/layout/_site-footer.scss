@@ -10,12 +10,6 @@
   margin-top: 64px;
   padding: 12px 18px;
 
-  &.copyright {
-    background: $color-purple;
-
-    text-align: center; 
-  }     
-
   a {
     $border-color: $color-slate;
     background-image: linear-gradient($color-yellow 0, $color-yellow 0),
@@ -45,3 +39,9 @@
     }
   }
 }
+
+.site-footer-copyright {
+  background: $color-purple;
+  color: $color-offwhite; 
+  height: 50px;
+}     
