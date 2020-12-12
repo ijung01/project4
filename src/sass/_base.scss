@@ -12,25 +12,31 @@ body {
   background-color: $color-offwhite;
   color: $color-text-body;
   font-family: "noto-sans-display", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.4;
   margin: 0;
 }
 
 main {
   flex: 1 0 auto;
-  padding: 10vh 10vw; 
+  padding: 10vh 10vw;
+  border: 2px solid $color-purple; 
 }
 
 h2 {
   font-family: "omnium", sans-serif;
-  font-size: 64px; 
+  font-size: 72px; 
   text-transform: uppercase; 
+  margin: 0px; 
+  padding: 0px; 
 }
 
 h3 {
   font-size: 28px; 
-  font-weight: 600;
+  font-weight: 500;
+  border: 2px solid $color-purple;
+  display: inline; 
 }
+
 // "neue-haas-unica" 
 // "noto-sans-display"
