@@ -12,7 +12,7 @@ body {
   background-color: $color-offwhite;
   color: $color-text-body;
   font-family: "noto-sans-display", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.4;
   margin: 0;
 }
@@ -24,8 +24,13 @@ main {
 
 h2 {
   font-family: "omnium", sans-serif;
-  font-size: 10vh; 
+  font-size: 64px; 
   text-transform: uppercase; 
+}
+
+h3 {
+  font-size: 28px; 
+  font-weight: 600;
 }
 // "neue-haas-unica" 
 // "noto-sans-display"
