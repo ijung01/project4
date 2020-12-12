@@ -1,4 +1,4 @@
-.site-nav {
+.site-nav-top {
   background-color: $color-grey;
 
   ul {
@@ -38,9 +38,7 @@
   }
 }
 
-.site-nav-buttons {
-  display: flex; 
-  flex: 1; 
+.site-nav-bottom {
   padding: 10vh 10vh; 
 
   a {
@@ -48,4 +46,12 @@
     color: $color-text-body;
     text-decoration: none;
   }
+}
+
+.site-nav-bottom-content {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around; 
+
+  
 }
