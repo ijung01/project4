@@ -39,7 +39,13 @@
 }
 
 .site-nav-buttons {
+  display: flex; 
+  flex: 1; 
+  padding: 10vh 10vh; 
+
   a {
-    
+    border: 2px solid $color-mint; 
+    color: $color-text-body;
+    text-decoration: none;
   }
 }
