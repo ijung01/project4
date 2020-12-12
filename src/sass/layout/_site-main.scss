@@ -1,15 +1,17 @@
 .site-home-grid {
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    
-    div{
-        background-color: $color-grey;
-    }
+    border: 2px solid $color-purple; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 1rem; 
 }
 
-
+.home-header-wrapper {
+    grid-column: 1 / 9;
+    grid-row: 1; 
+}
 
 .home-content-wrapper {
-
+    grid-column: 1 / 6;
+    grid-row: 2; 
 }
