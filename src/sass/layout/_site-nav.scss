@@ -53,7 +53,13 @@
     border: 2px solid $color-purple; 
     border-radius: 10px; 
     margin: 0.5vh; 
-    padding: 1vh 
+    padding: 1vh; 
+
+    &:hover,
+    &:focus {
+      background-color: $color-purple; 
+      color: $color-offwhite;
+    }
   }
 
   a {
