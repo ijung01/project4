@@ -50,20 +50,22 @@
   //justify-content: space-around; 
 
   div {
+    color: $color-text-body; 
     border: 2px solid $color-purple; 
     border-radius: 10px; 
     margin: 0.5vh; 
     padding: 1vh; 
 
-    &:hover,
-    &:focus {
+    &:hover {
       background-color: $color-purple; 
-      color: $color-offwhite;
     }
   }
 
   a {
     color: $color-text-body;
     text-decoration: none;
+    &:hover {
+      color: $color-offwhite;
+    }
   }
 }
