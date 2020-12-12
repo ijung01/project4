@@ -1,19 +1,19 @@
 .site-home-grid {
     display: grid; 
     //border: 2px solid $color-purple; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     grid-gap: 1rem; 
 }
 
 .home-header-wrapper {
     //border: 2px solid $color-purple; 
-    grid-column: 1 / 9;
+    grid-column: 1 / 11;
     grid-row: 1; 
 }
 
 .home-content-wrapper {
     //border: 2px solid $color-purple; 
-    grid-column: 1 / 7;
+    grid-column: 1 / 8;
     grid-row: 2; 
 }
