@@ -1,5 +1,7 @@
 .site-nav-top {
-  background-color: $color-grey;
+  //background-color: $color-grey;
+  border: 2px solid $color-purple; 
+  text-transform: uppercase;
 
   ul {
     display: flex;
@@ -20,7 +22,6 @@
     border-bottom: 2px dashed transparent;
     color: $color-text-body;
     display: block;
-    font-family: $font-mono;
     margin-bottom: -3px;
     padding: 12px;
     text-decoration: none;
@@ -71,10 +72,11 @@
     border-radius: 12px; 
     margin: 0.5vh; 
     padding: 1vh 2vw;
+    transition: 0.3s; 
 
     &:hover {
-      color: $color-offwhite; 
       background-color: $color-purple; 
+      color: $color-offwhite; 
     }
   }
 }

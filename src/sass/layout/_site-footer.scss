@@ -26,7 +26,7 @@
     }
 
     &:visited {
-      color: mix($color-text-link-visited, white, 80%);
+      color: $color-purple-transparent;
     }
 
     &:hover,
