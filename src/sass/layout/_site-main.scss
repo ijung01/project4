@@ -1,4 +1,15 @@
 .site-home-grid {
     display: grid; 
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    div{
+        background-color: $color-grey;
+    }
+}
+
+
+
+.home-content-wrapper {
+
 }
