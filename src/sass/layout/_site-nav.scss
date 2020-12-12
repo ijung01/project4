@@ -54,7 +54,6 @@
     border: 2px solid $color-purple; 
     border-radius: 10px; 
     margin: 0.5vh; 
-    padding: 1vh; 
 
     &:hover {
       background-color: $color-purple; 
@@ -64,8 +63,10 @@
   a {
     color: $color-text-body;
     text-decoration: none;
+    padding: 3vh; 
+
     &:hover {
-      color: $color-offwhite;
+      color: $color-offwhite; 
     }
   }
 }
