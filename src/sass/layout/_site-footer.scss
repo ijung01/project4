@@ -4,6 +4,7 @@
   border-top-style: solid;
   color: $color-text-body;
   font-weight: 500; 
+  line-height: 1.2; 
 
   a {
     //$border-color: $color-slate;
@@ -21,7 +22,6 @@
 
     &:link {
       color: $color-text-link;
-      text-decoration: none;
     }
 
     &:visited {
