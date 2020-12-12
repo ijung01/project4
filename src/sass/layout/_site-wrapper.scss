@@ -1,6 +1,7 @@
 .site-wrapper {
   background-color: $color-offwhite;
-  border: 2px solid $color-purple-transparent; 
+  border-left: 2px solid $color-purple-transparent;
+  border-right: 2px solid $color-purple-transparent;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
