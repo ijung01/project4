@@ -39,13 +39,9 @@
 }
 
 .site-nav-bottom {
-  padding: 10vh 10vh; 
-
-  a {
-    border: 2px solid $color-mint; 
-    color: $color-text-body;
-    text-decoration: none;
-  }
+  font-size: 28px; 
+  font-weight: 500;
+  padding: 10vh 10vw; 
 }
 
 .site-nav-bottom-content {
@@ -53,5 +49,17 @@
   flex-wrap: wrap;
   justify-content: space-around; 
 
-  
+
+  div {
+    border: 2px solid $color-mint; 
+    padding: 1vh;  
+  }
+
+  a {
+    border: 2px solid $color-mint; 
+    color: $color-text-body;
+    text-decoration: none;
+    padding: 0;   
+    margin: 0;
+  }
 }
