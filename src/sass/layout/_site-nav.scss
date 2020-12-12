@@ -9,6 +9,11 @@
     justify-content: flex-end;
   }
 
+  ul .site-logo {
+    justify-content: flex-start;
+    }
+  
+
   li {
     border-bottom: 5px solid $color-yellow;
 

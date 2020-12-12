@@ -3,23 +3,15 @@
 }
 
 .site-name {
-  color: $color-text-body;
+  font-size: 0;
+  width: 1px;
+  height: 1px;
   display: inline-block;
-  //filter: brightness(130%);
-  font-size: 48px;
-  font-weight: 700;
-  margin: 0;
-  padding: 24px 18px 12px;
-  text-decoration: none;
-  -webkit-text-stroke: 1px rgba(white, 22%);
-  transition: $transition-default;
+  overflow: hidden;
+  position: absolute!important;
+  border: 0!important;
+  padding: 0!important;
+  margin: 0!important;
+  clip: rect(1px,1px,1px,1px);
 }
 
-a.site-name {
-
-  &:hover,
-  &:focus {
-    filter: none;
-    -webkit-text-stroke: none;
-  }
-}
