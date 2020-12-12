@@ -9,11 +9,6 @@
     justify-content: flex-end;
   }
 
-  ul .site-logo {
-    justify-content: flex-start;
-    }
-  
-
   li {
     border-bottom: 5px solid $color-yellow;
 
@@ -43,6 +38,17 @@
     border-bottom-color: $color-slate;
     cursor: default;
   }
+}
+
+.site-logo {
+
+  ul {
+    display: flex; 
+    justify-content: flex-start;
+    border: 4px solid $color-mint
+  }
+
+  //border: 4px solid $color-mint;
 }
 
 .site-nav-bottom {
