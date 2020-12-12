@@ -47,19 +47,17 @@
 .site-nav-bottom-content {
   display: flex; 
   flex-wrap: wrap;
-  justify-content: space-around; 
-
+  //justify-content: space-around; 
 
   div {
-    border: 2px solid $color-mint; 
-    padding: 1vh;  
+    border: 2px solid $color-purple; 
+    border-radius: 10px; 
+    margin: 0.5vh; 
+    padding: 1vh 
   }
 
   a {
-    border: 2px solid $color-mint; 
     color: $color-text-body;
     text-decoration: none;
-    padding: 0;   
-    margin: 0;
   }
 }
