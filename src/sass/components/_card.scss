@@ -17,7 +17,10 @@ $card-gap: 12px;
   overflow: hidden;
   position: relative;
   transition: $transition-default;
-  
+
+  a {
+    font-size: $font-size-footer;
+  }
 
   @media (max-width: 679px) {
     width: 100%;
@@ -54,23 +57,8 @@ $card-gap: 12px;
     justify-content: center;
     border: $border;
     margin-bottom: 1vh;
-
-    a {
-      color: $color-text-body;
-      font-size: 28px;
-      font-weight: 800;
-      line-height: 1.3;
-      text-decoration: none;
-      transition: $transition-default;
-
-      &:hover,
-      &:focus {
-        text-decoration: underline 2px;
-      }
-    }
   }
 
-  &-byline,
   &-category {
     font-size: $font-size-footer;
     font-weight: 500;
@@ -103,6 +91,12 @@ $card-gap: 12px;
 
     span {
       font-size: $font-size-header-description;
+
+      a {
+        border: $border;
+        border-radius: $border-rounded;
+        text-decoration: none;
+      }
       
       &:nth-child(1) {
         grid-column: 1 / 3;
@@ -113,41 +107,32 @@ $card-gap: 12px;
         grid-column: 4 / 6;
         grid-row: 1; 
       }
-    }
 
-    li {
+      &:nth-child(3) {
+      grid-column: 1 / 2;
+      grid-row: 2; 
 
-      &:nth-child(1) {
-        grid-column: 1 / 5;
-        grid-row: 2; 
+        a {
+          background: $color-yellow;
+          color: $color-yellow;
         }
-
-      a {
-        border: $border;
-        border-radius: $border-rounded;
-        text-decoration: none;
-     }
-
-      &:nth-child(1) a {
-      background: $color-yellow;
-      color: $color-yellow;
       }
-      
-      &:nth-child(2) a {
+
+      &:nth-child(4) a {
         background: $color-magenta;
         color: $color-magenta;
         grid-column: 2 / 3;
         grid-row: 2; 
       }
-
-      &:nth-child(3) a{
+  
+      &:nth-child(5) a{
         background: $color-mint;
         color: $color-mint;
         grid-column: 3 / 4;
         grid-row: 2; 
       }
-
-      &:nth-child(4) a{
+  
+      &:nth-child(6) a{
         background: $color-navy;
         color: $color-navy;
         grid-column: 4 / 5;
