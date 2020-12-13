@@ -26,20 +26,20 @@ main {
 
 h2 {
   font-family: "omnium", sans-serif;
-  font-size: 72px; 
+  font-size: $header; 
   margin: 0px; 
   padding: 0px; 
   line-height: 0.5;
 }
 
 h3 {
-  font-size: 28px; 
+  font-size: $header-description; 
   font-weight: 500;
   padding-bottom: 3vh;
 }
 
 p {
-  font-size: 18px;
+  font-size: $body;
 }
 
 //fonts to use 
