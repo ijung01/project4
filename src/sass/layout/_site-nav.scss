@@ -2,18 +2,25 @@
   //background-color: $color-grey;
   align-items: center;
   border: 2px solid $color-purple; 
-
-  nav {
-  display: flex;
-  justify-content: space-between;
   text-transform: uppercase;
   font-weight: 600; 
+  display: flex;
+  justify-content: flex-end; 
+
+  li {
+    border-bottom: 5px solid $color-yellow;
+
+    +li {
+      a {
+        margin-left: 8px;
+      }
+    }
   }
 
   a {
     border-bottom: 2px dashed transparent;
     color: $color-text-body;
-    display: block;
+    //display: block;
     margin-bottom: -3px;
     padding: 12px;
     text-decoration: none;
@@ -30,6 +37,31 @@
     cursor: default;
   }
 }
+
+.site-logo {
+  margin-right: auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .site-nav-bottom {
