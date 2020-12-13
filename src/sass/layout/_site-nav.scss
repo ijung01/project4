@@ -48,6 +48,7 @@
   }
 
   [aria-current] a {
+    border: 2px solid; 
     border-bottom-color: $color-slate;
     cursor: default;
   }
