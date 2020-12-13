@@ -14,11 +14,14 @@
 
   li:first-child {
     margin-right: auto; 
+    font-family: "omnium";
+    font-size: 28px;
+    font-weight: 900; 
     //border: 3px solid $color-mint;
   }
 
   li {
-    border-bottom: 5px solid $color-yellow;
+    //border-bottom: 5px solid $color-yellow;
     //border: 3px solid $color-mint;
     font-size: 14px;
 
@@ -40,7 +43,7 @@
 
     &:hover,
     &:focus {
-      border-bottom-color: rgba($color-slate, 70%);
+      border-bottom-color: rgba($color-purple, 70%);
     }
   }
 
@@ -53,8 +56,9 @@
 .site-nav-bottom {
   font-size: 28px; 
   font-weight: 500;
-  padding: 1vh 10vw; 
-  border: 2px solid $color-purple; 
+  padding: 10vh 10vw; 
+  margin: 0;
+  //border: 2px solid $color-purple; 
 }
 
 .site-nav-bottom-content {
