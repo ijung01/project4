@@ -17,6 +17,7 @@ $card-gap: 12px;
   overflow: hidden;
   position: relative;
   transition: $transition-default;
+  
 
   @media (max-width: 679px) {
     width: 100%;
@@ -112,9 +113,23 @@ $card-gap: 12px;
 
   &-grid {
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     grid-gap: 1rem; 
-  }
 
+      span {
+        font-size: $font-size-header-description;
+      }
+
+      a {
+        border: $border-check;
+        border-radius: $border-rounded;
+        text-decoration: none;
+        
+
+      }
+  }
 }
+
+
+//class="card-content-grid"
