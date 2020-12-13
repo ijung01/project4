@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Home</title>
+
+  <link href="/css/styles.css" rel="stylesheet">
+  <link href="https://use.typekit.net/tam4wqb.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/izg1egw.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="site-wrapper">
+
+    <header class="site-header">
+      <h1 class="site-name">Charm City Circulator Demo Site</h1>   
+
+      <nav class="site-nav-top">
+        <ul class="u-list-reset"> 
+          <li>
+            <a href="/home/" class="site-logo">
+              CCC
+            </a>
+          </li>
+          
+          <li>
+            <a href="/service/">
+              Service
+            </a>
+          </li>
+  
+          <li>
+            <a href="/routes/">
+              Routes 
+            </a>
+          </li>
+  
+          <li>
+            <a href="/stops/">
+              Stops 
+            </a>
+          </li>
+  
+          <li>
+            <a href="/contact/">
+              Contact  
+            </a>
+          </li>
+
+          <li>
+            <a><i class="fa fa-search"></i></a>
+          </li>
+        </ul>
+        
+      </nav>
+    
+
+    </header>
+  
+    <main>
+     
+        {{content | safe}}
+
+    </main>
+
+    <nav class="site-nav-bottom">
+      <div class="site-nav-bottom-content">
+
+          <a role="button" href="/routes/" class="button-routes-1">
+            View Routes at a Glance
+          </a>
+
+          <a role="button" href="/stops/" class="button-stops-1">
+            List of Stops & Locations 
+          </a>
+
+          <a role="button" href="/contact/" class="button-contact-1">
+            Contact  
+          </a>
+
+          <a role="button" href="/service/" class="button-service-1">
+            Policy 
+          </a>
+
+          <a role="button" href="/service/" class="button-service-2">
+            Service Information 
+          </a>
+
+          <a role="button" href="/stops/"class="button-stops-2">
+            Download Maps
+          </a>
+
+      </div>
+    </nav>
+
+    <footer class="site-footer">
+      <div class="site-footer-content">
+
+        <div class="site-footer-section">
+          <a href="/home/" class="site-logo">CCC</a>      
+        </div>
+
+        <div class="site-footer-section">
+          <p>Charm City Circulator</p>
+        </div>
+
+        <div class="site-footer-section">
+          <address>
+            <p>Address
+              <br>417 E. Fayette Street<br>5th Floor Baltimore<br>MD 21202
+            </p>
+            <p>Customer Service<br>410–545–1956
+            </p>
+          </address>
+        </div>
+
+        <div class="site-footer-section">
+          <a href="https://transportation.baltimorecity.gov/">Baltimore City Department of Transportation</a>
+        </div>
+
+      </div>
+
+      <div class="site-footer-copyright">
+        &copy; 2018 City of Baltimore. All Rights Reserved | Designed by Isaac Jung 
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
