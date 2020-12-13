@@ -1,6 +1,6 @@
 .site-home-grid {
     display: grid; 
-    //border: 2px solid $color-purple; 
+    border: 2px solid $color-purple; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     grid-gap: 1rem; 
