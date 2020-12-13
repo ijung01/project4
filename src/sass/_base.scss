@@ -26,24 +26,25 @@ main {
 
 h2 {
   font-family: "omnium", sans-serif;
-  font-size: $header; 
+  font-size: $font-size-header; 
   margin: 0px; 
   padding: 0px; 
   line-height: 0.5;
 }
 
 h3 {
-  font-size: $card-title; 
+  font-size: $font-size-card-title; 
+  line-height: 1.2; 
 }
 
 h4 {
-  font-size: $header-description; 
+  font-size: $font-size-header-description; 
   font-weight: 500;
   padding-bottom: 3vh;
 }
 
 p {
-  font-size: $body;
+  font-size: $font-size-body;
 }
 
 //fonts to use 

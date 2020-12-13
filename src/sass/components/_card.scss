@@ -4,13 +4,14 @@ $card-gap: 12px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 0;
   margin-left: -$card-gap;
   margin-right: -$card-gap;
 }
 
 .card {
-  border-radius: 12px;
-  border-top: 3px solid $color-slate;
+  border-radius: $border-rounded;
+  border-top: 3px solid $color-purple;
   margin: $card-gap;
   overflow: hidden;
   position: relative;
@@ -27,7 +28,7 @@ $card-gap: 12px;
   }
 
   &-content {
-    padding: 12px;
+    padding: 36px;
     position: relative;
     z-index: 1;
 
@@ -98,35 +99,6 @@ $card-gap: 12px;
   &:nth-child(odd) {
     &::before {
       background: linear-gradient(130deg, $color-mint, white);
-    }
-  }
-
-  $patterns: "signal",
-  "flip-diamonds",
-  "overlap-hex",
-  "pie-factory",
-  "jupiter";
-
-  $patt-length: length($patterns);
-
-  @each $patt in $patterns {
-    $i: index($patterns, $patt);
-
-    &:nth-of-type(#{$patt-length}n + #{$i})::after {
-      @include pattern(#{$patt});
-    }
-  }
-
-
-  &:hover {
-    &::before {
-      opacity: 0.88;
-    }
-
-    @media (prefers-reduced-motion: no-preference) {
-      &::after {
-        transform: scale(1.13);
-      }
     }
   }
 }
