@@ -28,7 +28,7 @@ $card-gap: 12px;
   }
 
   &-content {
-    border: $border-check; 
+    //border: $border-check; 
     padding: 36px;
     position: relative;
     z-index: 1;
@@ -38,6 +38,11 @@ $card-gap: 12px;
       flex-direction: column;
       min-height: 220px;
     }
+
+    p {
+      border: $border-check;
+      margin-bottom: 2vh;
+    }
   }
 
   &-title {
@@ -45,8 +50,8 @@ $card-gap: 12px;
     flex: 1 0 auto;
     flex-direction: column;
     justify-content: center;
-    border: 
-
+    //border: $border-check;
+    
     a {
       color: $color-text-body;
       font-size: 28px;
