@@ -11,7 +11,7 @@ $card-gap: 12px;
 
 .card {
   border-radius: $border-rounded;
-  border: $border-check; 
+  border: $border; 
   border-top: 3px solid $color-purple;
   margin: $card-gap;
   overflow: hidden;
@@ -30,7 +30,7 @@ $card-gap: 12px;
   }
 
   &-content {
-    //border: $border-check; 
+    //border: $border; 
     padding: 36px;
     position: relative;
     z-index: 1;
@@ -42,7 +42,7 @@ $card-gap: 12px;
     }
 
     p {
-      border: $border-check;
+      border: $border;
       margin: 0vh 0vw 1vh 0vw;
     }
   }
@@ -52,7 +52,7 @@ $card-gap: 12px;
     flex: 1 0 auto;
     flex-direction: column;
     justify-content: center;
-    border: $border-check;
+    border: $border;
     margin-bottom: 1vh;
 
     a {
@@ -117,18 +117,22 @@ $card-gap: 12px;
     grid-template-rows: auto auto;
     grid-gap: 1rem; 
 
-      span {
-        font-size: $font-size-header-description;
-      }
+    span {
+      font-size: $font-size-header-description;
+    }
 
-      a {
-        border: $border-check;
-        border-radius: $border-rounded;
-        text-decoration: none;
-        
-
-      }
+    a {
+      border: $border;
+      border-radius: $border-rounded;
+      text-decoration: none;
+    }
   }
+
+  div:nth-child(3) {
+    background: $color-yellow;
+    border: 4px solid; 
+  }
+
 }
 
 
