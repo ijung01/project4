@@ -4,27 +4,25 @@
     grid-row: 1; 
 }
 
-.content-404-wrapper {
-    //border: 2px solid $color-purple; 
-    grid-column: 1 / 2;
-    grid-row: 2; 
-
-    a {
-        color: $color-text-body;
-        display: block; 
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: 500;
+    a.button-home {
         border: 2px solid $color-purple; 
         border-radius: 12px; 
+        color: $color-text-body;
+        display: block; 
+        font-size: 20px;
+        font-weight: 500;
+        grid-column: 1 / 4;
+        grid-row: 2; 
         padding: 1vh 2vw;
-        transition: 0.3s; 
+        text-decoration: none;
+        text-align: center; 
+        transition: 0.3s;
     
         &:hover {
           background-color: $color-purple; 
           color: $color-offwhite; 
         }
     }
-}
+
 
 

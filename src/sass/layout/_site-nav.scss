@@ -56,7 +56,7 @@
 .site-nav-bottom {
   font-size: 28px; 
   font-weight: 500;
-  padding: 10vh 10vw; 
+  padding: 0vh 10vw; 
   margin: 0;
   //border: 2px solid $color-purple; 
 }
@@ -80,11 +80,11 @@
   //}
 
   a {
+    border: 2px solid $color-purple; 
+    border-radius: 12px; 
     color: $color-text-body;
     display: block; 
     text-decoration: none;
-    border: 2px solid $color-purple; 
-    border-radius: 12px; 
     margin: 0.5vh; 
     padding: 1vh 2vw;
     transition: 0.3s; 

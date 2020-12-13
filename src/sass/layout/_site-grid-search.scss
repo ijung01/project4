@@ -6,9 +6,14 @@
 
 div.content-search-box {
     border: 2px solid $color-purple; 
-    height: 40px;
+    border-radius: 12px;
+    height: 72px;
     grid-column: 1 / 12;
     grid-row: 2; 
+
+    &:hover {
+        cursor: text; 
+    }
 }
  
 
