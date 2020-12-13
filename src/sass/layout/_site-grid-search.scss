@@ -1,15 +1,20 @@
-.header-search-wrapper {
-    //border: 2px solid $color-purple; 
-    grid-column: 1 / 11;
-    grid-row: 1; 
+.header
 
+
+    div.content-search-box {
+        border: 2px solid $color-purple; 
+        height: 10vh;
+        grid-column: 1 / 3;
+        grid-row: 2; 
+    }
+ 
     a.button-home {
         color: $color-text-body;
-        display: block; 
         text-decoration: none;
+        display: block; 
         font-size: 20px;
         font-weight: 500;
-        border: 2px solid $color-purple; 
+        border: 2px solid $color-mint; 
         border-radius: 12px; 
         padding: 1vh 2vw;
         transition: 0.3s; 
@@ -21,7 +26,7 @@
           color: $color-offwhite; 
         }
     }
-}
+
 
 
 
