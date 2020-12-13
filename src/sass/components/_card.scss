@@ -28,6 +28,7 @@ $card-gap: 12px;
   }
 
   &-content {
+    border: $border-check; 
     padding: 36px;
     position: relative;
     z-index: 1;
@@ -44,6 +45,7 @@ $card-gap: 12px;
     flex: 1 0 auto;
     flex-direction: column;
     justify-content: center;
+    border: 
 
     a {
       color: $color-text-body;

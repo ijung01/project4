@@ -4,6 +4,7 @@ $font-size-card-title: 36px;
 $font-size-header: 72px; 
 
 $border-rounded: 12px;
+$border-check: 2px solid;
 
 $color-offblack: #0A0908;
 $color-offwhite: #FCFCFC;
@@ -18,9 +19,5 @@ $color-slate: #3b4127;
 $color-text-body: $color-purple;
 $color-text-link: $color-mint;
 $color-text-link-visited: $color-text-body;
-
-
-//$font-mono: "IBM Plex Mono",
-//monospace;
 
 $transition-default: all 300ms;
