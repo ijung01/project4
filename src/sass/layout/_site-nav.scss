@@ -1,22 +1,13 @@
 .site-nav-top {
   //background-color: $color-grey;
+  align-items: center;
   border: 2px solid $color-purple; 
+
+  nav {
+  display: flex;
+  justify-content: space-between;
   text-transform: uppercase;
   font-weight: 600; 
-
-  ul {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  li {
-    border-bottom: 5px solid $color-yellow;
-
-    +li {
-      a {
-        margin-left: 8px;
-      }
-    }
   }
 
   a {
@@ -40,16 +31,6 @@
   }
 }
 
-.site-logo {
-
-  ul {
-    display: flex; 
-    justify-content: flex-start;
-    border: 4px solid $color-mint
-  }
-
-  //border: 4px solid $color-mint;
-}
 
 .site-nav-bottom {
   font-size: 28px; 
