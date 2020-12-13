@@ -11,6 +11,7 @@ $card-gap: 12px;
 
 .card {
   border-radius: $border-rounded;
+  border: $border-check; 
   border-top: 3px solid $color-purple;
   margin: $card-gap;
   overflow: hidden;
@@ -41,7 +42,7 @@ $card-gap: 12px;
 
     p {
       border: $border-check;
-      margin-bottom: 2vh;
+      margin: 0vh 0vw 1vh 0vw;
     }
   }
 
@@ -50,8 +51,9 @@ $card-gap: 12px;
     flex: 1 0 auto;
     flex-direction: column;
     justify-content: center;
-    //border: $border-check;
-    
+    border: $border-check;
+    margin-bottom: 1vh;
+
     a {
       color: $color-text-body;
       font-size: 28px;
@@ -69,7 +71,7 @@ $card-gap: 12px;
 
   &-byline,
   &-category {
-    font-size: 15px;
+    font-size: $font-size-footer;
     font-weight: 500;
     line-height: 1;
     text-transform: uppercase;
@@ -107,4 +109,12 @@ $card-gap: 12px;
       background: linear-gradient(130deg, $color-mint, white);
     }
   }
+
+  &-grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 1rem; 
+  }
+
 }
