@@ -115,39 +115,45 @@ $card-gap: 12px;
       }
     }
 
-    a {
-      border: $border;
-      border-radius: $border-rounded;
-      text-decoration: none;
+    li {
 
       &:nth-child(1) {
-        background: $color-yellow;
-        color: $color-yellow;
-        grid-column: 1 / 2;
+        grid-column: 1 / 5;
         grid-row: 2; 
         }
+
+      a {
+        border: $border;
+        border-radius: $border-rounded;
+        text-decoration: none;
+     }
+
+      &:nth-child(1) a {
+      background: $color-yellow;
+      color: $color-yellow;
+      }
+      
+      &:nth-child(2) a {
+        background: $color-magenta;
+        color: $color-magenta;
+        grid-column: 2 / 3;
+        grid-row: 2; 
+      }
+
+      &:nth-child(3) a{
+        background: $color-mint;
+        color: $color-mint;
+        grid-column: 3 / 4;
+        grid-row: 2; 
+      }
+
+      &:nth-child(4) a{
+        background: $color-navy;
+        color: $color-navy;
+        grid-column: 4 / 5;
+        grid-row: 2; 
+      }
     }
-    
-    a:nth-child(2) {
-      background: $color-magenta;
-      color: $color-magenta;
-      grid-column: 2 / 3;
-      grid-row: 2; 
-      }
-
-    a:nth-child(3) {
-      //background: $color-mint;
-      //color: $color-mint;
-      grid-column: 3 / 4;
-      grid-row: 2; 
-      }
-
-    a:nth-child(4) {
-      background: $color-navy;
-      color: $color-navy;
-      grid-column: 4 / 5;
-      grid-row: 2; 
-      }
   }
 }
 
