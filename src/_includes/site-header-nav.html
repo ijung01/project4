@@ -3,41 +3,13 @@
 
     <nav class="site-nav-top">
       <ul class="u-list-reset"> 
-      {% for %}
-      <li>
-        <a href="/" class="site-logo">
-          CCC
-        </a>
-      </li>
-      
-      <li>
-        <a href="/service/">
-          Service
-        </a>
-      </li>
-
-      <li>
-        <a href="/routes/">
-          Routes 
-        </a>
-      </li>
-
-      <li>
-        <a href="/stops/">
-          Stops 
-        </a>
-      </li>
-
-      <li>
-        <a href="/contact/">
-          Contact  
-        </a>
-      </li>
-
-      <li>
-        <a><i class="fa fa-search"></i></a>
-      </li>
-      {$ endfor $}
+      {% for item in collections.nav %}
+        <li>
+          <a href="{{ item.url }}">
+            {{ item.data.pageTitle }}
+          </a>
+        </li>
+      {% endfor %}
       </ul>
       
     </nav>
