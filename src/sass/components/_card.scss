@@ -135,30 +135,28 @@ $card-gap: 12px;
       border: $border;
       border-radius: $border-rounded;
       text-decoration: none;
-    }
-
-    li:nth-child(1) {
-      //margin-right: auto; 
+      
+      &:nth-child(1) {
       background: $color-yellow;
-    }
+      color: $color-yellow;
+      }
 
-    li:nth-child(2) {
-      //margin-right: auto; 
+      &:nth-child(2) {
       background: $color-magenta;
-    }
+      color: $color-magenta;
+      }
 
-    li:nth-child(3) {
-      //margin-right: auto; 
+      &:nth-child(3) {
       background: $color-mint;
-    }
+      color: $color-mint;
+      }
 
-    li:nth-child(4) {
-      //margin-right: auto; 
-      background: $color-banner;
+      &:nth-child(4) {
+      background: $color-navy;
+      color: $color-navy;
+      }
     }
-
   }
 }
-
 
 //class="card-content-grid"
