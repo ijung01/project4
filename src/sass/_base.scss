@@ -33,6 +33,10 @@ h2 {
 }
 
 h3 {
+  font-size: $card-title; 
+}
+
+h4 {
   font-size: $header-description; 
   font-weight: 500;
   padding-bottom: 3vh;
