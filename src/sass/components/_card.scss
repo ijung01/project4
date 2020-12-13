@@ -95,22 +95,6 @@ $card-gap: 12px;
     transition: $transition-default;
   }
 
-  &::before {
-    opacity: 0.4;
-  }
-
-  &:nth-child(even) {
-    &::before {
-      background: linear-gradient(130deg, $color-yellow, white);
-    }
-  }
-
-  &:nth-child(odd) {
-    &::before {
-      background: linear-gradient(130deg, $color-mint, white);
-    }
-  }
-
   &-grid {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -135,27 +119,35 @@ $card-gap: 12px;
       border: $border;
       border-radius: $border-rounded;
       text-decoration: none;
-      
-      &:nth-child(1) {
-      background: $color-yellow;
-      color: $color-yellow;
-      }
 
-      &:nth-child(2) {
+      &:nth-child(1) {
+        background: $color-yellow;
+        color: $color-yellow;
+        grid-column: 1 / 2;
+        grid-row: 2; 
+        }
+    }
+    
+    a:nth-child(2) {
       background: $color-magenta;
       color: $color-magenta;
+      grid-column: 2 / 3;
+      grid-row: 2; 
       }
 
-      &:nth-child(3) {
-      background: $color-mint;
-      color: $color-mint;
+    a:nth-child(3) {
+      //background: $color-mint;
+      //color: $color-mint;
+      grid-column: 3 / 4;
+      grid-row: 2; 
       }
 
-      &:nth-child(4) {
+    a:nth-child(4) {
       background: $color-navy;
       color: $color-navy;
+      grid-column: 4 / 5;
+      grid-row: 2; 
       }
-    }
   }
 }
 
