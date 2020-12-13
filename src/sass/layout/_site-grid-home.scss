@@ -1,7 +1,7 @@
 .site-grid {
     //border: 2px solid $color-purple; 
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(11, 1fr);
     grid-template-rows: auto auto;
     grid-gap: 1rem; 
 }
