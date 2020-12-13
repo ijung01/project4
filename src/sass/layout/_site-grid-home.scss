@@ -1,4 +1,4 @@
-.site-home-grid {
+.site-grid-home {
     display: grid; 
     //border: 2px solid $color-purple; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -6,13 +6,17 @@
     grid-gap: 1rem; 
 }
 
-.home-header-wrapper {
+.header-home-wrapper {
     //border: 2px solid $color-purple; 
     grid-column: 1 / 11;
     grid-row: 1; 
+
+    h2 {
+        text-transform: uppercase;
+    }
 }
 
-.home-content-wrapper {
+.content-home-wrapper {
     //border: 2px solid $color-purple; 
     grid-column: 1 / 8;
     grid-row: 2; 
