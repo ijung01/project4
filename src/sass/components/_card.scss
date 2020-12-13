@@ -9,7 +9,7 @@ $card-gap: 12px;
 }
 
 .card {
-  border-radius: 0 0 6px 6px;
+  border-radius: 12px;
   border-top: 3px solid $color-slate;
   margin: $card-gap;
   overflow: hidden;
