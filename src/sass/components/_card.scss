@@ -42,7 +42,7 @@ $card-gap: 12px;
 
     p {
       border: $border;
-      margin: 0vh 0vw 1vh 0vw;
+      margin: 1vh 0vw 0vh 0vw;
     }
   }
 
@@ -52,7 +52,9 @@ $card-gap: 12px;
     flex-direction: column;
     justify-content: center;
     border: $border;
-    margin-bottom: 1vh;
+    margin-bottom: 0;
+    margin-top: 3vh;
+  
   }
 
   &-category {
@@ -84,7 +86,8 @@ $card-gap: 12px;
     display: grid; 
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto auto;
-    grid-gap: 1rem; 
+    grid-gap: 1rem;
+    margin-top: 3vh;  
 
     span {
       font-size: $font-size-header-description;
