@@ -8,19 +8,21 @@
     //border: 2px solid $color-purple; 
     grid-column: 1 / 2;
     grid-row: 2; 
+
+    a {
+        color: $color-text-body;
+        display: block; 
+        text-decoration: none;
+        border: 2px solid $color-purple; 
+        border-radius: 12px; 
+        padding: 1vh 2vw;
+        transition: 0.3s; 
+    
+        &:hover {
+          background-color: $color-purple; 
+          color: $color-offwhite; 
+        }
+    }
 }
 
-a {
-    color: $color-text-body;
-    display: block; 
-    text-decoration: none;
-    border: 2px solid $color-purple; 
-    border-radius: 12px; 
-    margin: 0.5vh; 
-    padding: 1vh 2vw;
-    transition: 0.3s; 
 
-    &:hover {
-      background-color: $color-purple; 
-      color: $color-offwhite; 
-    }
