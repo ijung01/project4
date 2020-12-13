@@ -11,7 +11,8 @@ div.content-search-box {
     grid-column: 1 / 11;
     grid-row: 2; 
 
-    &:hover {
+    &:hover, 
+    &:focus {
         cursor: text; 
     }
 }

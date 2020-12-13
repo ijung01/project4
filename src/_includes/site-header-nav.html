@@ -5,7 +5,7 @@
       <ul class="u-list-reset">
         {% assign nav = collections.nav | sortByPageOrder %} 
       {% for item in nav%}
-        <li{% if page.url == item.url %} aria-current="page"{% edif %}>
+        <li>
           <a href="{{ item.url }}">
             {{ item.data.pageTitle }}
           </a>
@@ -15,8 +15,8 @@
         <a href="/search/"><i class="fa fa-search"></i></a>
       </li>
       </ul>
-      
     </nav>
-  
-
+    
   </header>
+
+
