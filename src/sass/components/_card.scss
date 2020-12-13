@@ -80,8 +80,9 @@ $card-gap: 12px;
   }
 
   &-grid {
+    border: $border;
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto minmax (0px1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     grid-gap: 1rem; 
 
@@ -103,7 +104,7 @@ $card-gap: 12px;
       }
 
       &:nth-child(2) {
-        grid-column: 7 / 9;
+        grid-column: 6 / 9;
         grid-row: 1; 
       }
 
@@ -137,7 +138,7 @@ $card-gap: 12px;
       }
   
       &:nth-child(6) {
-        grid-column: 7 / 9;
+        grid-column: 6 / 9;
         grid-row: 2; 
         
         a{
