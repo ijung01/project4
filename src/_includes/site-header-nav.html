@@ -2,8 +2,9 @@
     <h1 class="site-name">Charm City Circulator Demo Site</h1>   
 
     <nav class="site-nav-top">
-      <ul class="u-list-reset"> 
-      {% for item in collections.nav %}
+      <ul class="u-list-reset">
+        {% assign nav = collections.nav | sortByPageOrder %} 
+      {% for item in nav%}
         <li>
           <a href="{{ item.url }}">
             {{ item.data.pageTitle }}
