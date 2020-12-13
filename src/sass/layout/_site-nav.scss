@@ -1,15 +1,26 @@
 .site-nav-top {
-  background-color: $color-grey;
+  background-color: $color-offwhite;
   text-transform: uppercase;
-  font-weight: 600; 
+  font-weight: 700; 
+  padding: 0vh 10vw 0vh 10vw;
+  border: 3px solid $color-purple;
 
   ul {
     display: flex;
     justify-content: flex-end;
+    padding: 0;
+    margin: 0; 
+  }
+
+  li:first-child {
+    margin-right: auto; 
+    //border: 3px solid $color-mint;
   }
 
   li {
     border-bottom: 5px solid $color-yellow;
+    border: 3px solid $color-mint;
+    font-size: 14px;
 
     +li {
       a {
@@ -22,8 +33,6 @@
     border-bottom: 2px dashed transparent;
     color: $color-text-body;
     display: block;
-    margin-bottom: -3px;
-    padding: 12px;
     text-decoration: none;
     transition: $transition-default;
 
