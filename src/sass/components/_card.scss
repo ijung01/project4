@@ -1,4 +1,4 @@
-$card-gap: 12px;
+$card-gap: 28px;
 
 .cards-list {
   display: flex;
@@ -156,7 +156,6 @@ $card-gap: 12px;
   }
 
   &-grid-2 {
-      border: $border;
       display: grid; 
       grid-template-columns: repeat(8, 1fr);
       grid-template-rows: auto auto;
@@ -166,15 +165,23 @@ $card-gap: 12px;
       ol  { 
 
         &:nth-child(1) {
-        border: $border;
         grid-column: 1 / 4;
         grid-row: 1;
         }
 
         &:nth-child(2) {
-          border: $border;
+          grid-column: 1 / 4;
+          grid-row: 2;
+        }
+
+        &:nth-child(3) {
           grid-column: 4 / 9;
           grid-row: 1;
+        }
+
+        &:nth-child(4) {
+          grid-column: 4 / 9;
+          grid-row: 2;
         }
       }
 
