@@ -6,7 +6,7 @@
 div.content-search-box {
     order: 2px solid $color-purple; 
     border: $border;
-    border-radius: 12px;
+    border-radius: $border-rounded;
     display: block; 
     height: 72px;
     grid-column: 1 / 11;
@@ -16,6 +16,14 @@ div.content-search-box {
     &:focus {
         cursor: text; 
     }
+}
+
+.search-box {
+    border: 5px solid $color-purple; 
+    border-radius: $border-rounded;
+    height: 72px;
+    grid-column: 1 / 11;
+    grid-row: 2; 
 }
  
 
