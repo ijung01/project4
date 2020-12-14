@@ -41,20 +41,19 @@ $card-gap: 12px;
     }
 
     p {
-      border: $border;
-      margin: 1vh 0vw 0vh 0vw;
+      //border: $border;
+      margin: 2vh 0vw 0vh 0vw;
     }
   }
 
   &-title {
+    //border: $border;
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
     justify-content: center;
-    border: $border;
     margin-bottom: 0;
     margin-top: 3vh;
-  
   }
 
   &-category {
@@ -82,12 +81,12 @@ $card-gap: 12px;
   }
 
   &-grid {
-    border: $border;
+    //border: $border;
     display: grid; 
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto auto;
     grid-gap: 1rem;
-    margin-top: 3vh;  
+    margin-top: 5vh;  
 
     span {
       font-size: $font-size-header-description;
