@@ -19,8 +19,10 @@ div.content-search-box {
 }
 
 .search-box {
+    font-size: $font-size-header-description;
     border: 5px solid $color-purple; 
     border-radius: $border-rounded;
+    color: 
     height: 72px;
     grid-column: 1 / 11;
     grid-row: 2; 
