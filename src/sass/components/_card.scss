@@ -162,6 +162,26 @@ $card-gap: 12px;
       grid-template-rows: auto auto;
       grid-gap: 1rem;
       margin-top: 5vh;  
+
+      ol  { 
+
+        &:nth-child(1) {
+        border: $border;
+        grid-column: 1 / 4;
+        grid-row: 1;
+        }
+
+        &:nth-child(2) {
+          border: $border;
+          grid-column: 4 / 9;
+          grid-row: 1;
+        }
+      }
+
+      span {
+        font-size: $font-size-header-description;
+        padding: 0vh;
+      }
   }
 }
 
