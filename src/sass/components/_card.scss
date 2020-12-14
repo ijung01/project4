@@ -24,6 +24,8 @@ $card-gap: 28px;
     max-width: 600px;
   }
 
+//breakpoint is the min-width
+
   @media (min-width: 680px) {
     flex: 1 0 auto;
     width: 30%;

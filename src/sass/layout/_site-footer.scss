@@ -54,7 +54,7 @@
 .site-footer-content {
   display: flex; 
   font-size: $font-size-footer;
-  height: 16vh; 
+  min-height: 16vh; 
   padding: 3vh 10vw 3vh 10vw; 
 }
 
