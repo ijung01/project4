@@ -93,7 +93,7 @@ $card-gap: 28px;
     grid-gap: 1rem;
     margin-top: 8vh;  
 
-    p {
+    span {
       font-size: $font-size-header-description;
       padding: 0vh;
 
@@ -109,14 +109,10 @@ $card-gap: 28px;
 
       a {
         font-size: $font-size-footer;
-        border: $border;
         border-radius: $border-rounded;
         padding: 0.1vh 2vw;
         text-decoration: none;
       }
-    }
-
-    div {
 
       &:nth-child(3) {
       grid-column: 1 / 2;
@@ -194,6 +190,18 @@ $card-gap: 28px;
         padding: 0vh;
       }
   }
+
+  &-grid-3 {
+    display: grid; 
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: auto auto;
+    grid-gap: 1rem;
+    margin-top: 8vh;
+
+    
+
+  }  
+
 }
 
 //class="card-content-grid"
