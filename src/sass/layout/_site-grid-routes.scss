@@ -31,3 +31,57 @@
     }
 }
 
+.site-grid-secondary-wrapper {
+    h3 {
+        font-size: 48px;
+        font-family: "omnium";
+        font-weight: 700;
+        text-transform: uppercase; 
+    }
+}
+
+.stops-search-box {
+    background: $color-purple-transparent; 
+    border: 5px solid $color-purple; 
+    border-radius: $border-rounded;
+    color: $color-purple;
+    font-size: $font-size-header-description;
+    grid-column: 1 / 9;
+    grid-row: 2; 
+    height: 72px;
+    outline: 0;
+    padding: 1vh;
+    transition: 0.3s; 
+
+    &:hover,
+    &:focus,
+    &:active {
+        background: $color-offwhite;
+    }
+}
+
+.submit-button {
+    background: $color-purple;
+    border: 5px solid $color-purple; 
+    border-radius: $border-rounded;
+    color: $color-offwhite;
+    font-size: $font-size-header-description;
+    grid-column: 9 / 11;
+    grid-row: 2; 
+    outline: 0;
+    transition: 0.3s;
+
+    &:hover,
+    &:focus,
+    &:active {
+        //background: $color-offwhite;
+        //color: $color-purple;
+        cursor: pointer;
+    }
+}
+
+input::placeholder {
+    color: $color-purple;
+    margin-left: 20px;
+}
+
