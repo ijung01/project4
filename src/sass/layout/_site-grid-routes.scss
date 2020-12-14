@@ -5,7 +5,16 @@
 }
 
 .content-routes-wrapper {
-    //border: 2px solid $color-purple; 
-    grid-column: 1 / 8;
-    grid-row: 2; 
+    border: 2px solid $color-purple; 
+    grid-column: 9 / 12;
+    grid-row: 1; 
+
+    p {
+    font-size: $font-size-footer;
+    padding: 0;
+    margin: 0;
+    }
+
 }
+  
+
