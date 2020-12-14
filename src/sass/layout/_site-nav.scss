@@ -38,6 +38,7 @@
     margin-right: 1vh;
     text-decoration: none;
     transition: $transition-default;
+    opacity: 0.5;
 
     &:hover,
     &:focus {
@@ -46,7 +47,7 @@
   }
 
   [aria-current] a {
-    border-bottom-color: $color-slate;
+    opacity: 1;
     cursor: default;
   }
 }
