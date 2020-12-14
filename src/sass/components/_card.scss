@@ -44,6 +44,10 @@ $card-gap: 12px;
       //border: $border;
       margin: 2vh 0vw 0vh 0vw;
     }
+
+    span {
+      display: block; 
+    }
   }
 
   &-title {
@@ -149,6 +153,15 @@ $card-gap: 12px;
         }
       }
     }
+  }
+
+  &-grid-2 {
+      border: $border;
+      display: grid; 
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: auto auto;
+      grid-gap: 1rem;
+      margin-top: 5vh;  
   }
 }
 
