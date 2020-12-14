@@ -86,7 +86,8 @@
     padding: 1vh 2vw;
     transition: 0.3s; 
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $color-purple; 
       color: $color-offwhite; 
     }
