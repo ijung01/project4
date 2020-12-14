@@ -61,6 +61,7 @@ $card-gap: 28px;
   }
 
   &-category {
+    color: $color-purple;
     font-size: $font-size-footer;
     font-weight: 500;
     line-height: 1;
@@ -90,7 +91,7 @@ $card-gap: 28px;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto auto;
     grid-gap: 1rem;
-    margin-top: 5vh;  
+    margin-top: 8vh;  
 
     span {
       font-size: $font-size-header-description;
@@ -160,7 +161,7 @@ $card-gap: 28px;
       grid-template-columns: repeat(8, 1fr);
       grid-template-rows: auto auto;
       grid-gap: 1rem;
-      margin-top: 5vh;  
+      margin-top: 8vh;  
 
       ol  { 
 
