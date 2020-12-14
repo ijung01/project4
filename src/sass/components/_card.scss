@@ -12,7 +12,7 @@ $card-gap: 12px;
 .card {
   border-radius: $border-rounded;
   border: $border; 
-  border-top: 3px solid $color-purple;
+  border-top: 6px solid $color-purple;
   margin: $card-gap;
   overflow: hidden;
   position: relative;
@@ -80,7 +80,7 @@ $card-gap: 12px;
     transition: $transition-default;
   }
 
-  &-grid {
+  &-grid-1 {
     //border: $border;
     display: grid; 
     grid-template-columns: repeat(8, 1fr);
