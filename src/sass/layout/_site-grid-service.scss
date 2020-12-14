@@ -158,21 +158,8 @@
 
   &-wrapper {
     background: $color-offgrey;
-    padding: 10vh 10vw;
-  }
-
-  &-content {
-    display: grid; 
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: auto auto;
-    grid-gap: 1rem;
-    margin-top: 8vh;  
+    padding: 10vh 10vw 1vh 10vw;
   }
 }
 
-.policy-1 {
-  border: 10px solid $color-mint;
-  grid-column: 1 / 6;
-  grid-row: 1; 
-}
   
