@@ -1,0 +1,19 @@
+---
+layout: base.html
+---
+
+  <div class="site-wrapper">
+
+    {% include site-header-nav.html  %} 
+  
+    <main>
+     
+        {{content | safe}}
+
+    </main>
+    
+    {% include site-content-secondary-routes.html  %}
+    {% include site-nav-bottom.html  %}
+    {% include site-footer.html  %} 
+
+  </div>
