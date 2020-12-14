@@ -20,12 +20,19 @@ div.content-search-box {
 
 .search-box {
     font-size: $font-size-header-description;
+    background: $color-purple-transparent; 
     border: 5px solid $color-purple; 
     border-radius: $border-rounded;
-    color: 
+    color: $color-purple;
     height: 72px;
     grid-column: 1 / 11;
     grid-row: 2; 
+    outline: 0;
+
+    &:hover,
+    &focus {
+        background: $color-offwhite;
+    }
 }
  
 
