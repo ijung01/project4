@@ -25,16 +25,27 @@ div.content-search-box {
     border-radius: $border-rounded;
     color: $color-purple;
     height: 72px;
-    grid-column: 1 / 11;
+    grid-column: 1 / 9;
     grid-row: 2; 
     outline: 0;
+    padding: 10px;
 
     &:hover,
-    &focus {
+    &:focus,
+    &:active {
         background: $color-offwhite;
     }
 }
- 
+
+.submit-button {
+    grid-column: 9 / 11;
+    grid-row: 2; 
+}
+
+input::placeholder {
+    color: $color-purple;
+    margin-left: 20px;
+}
 
 
 
