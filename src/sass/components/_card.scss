@@ -48,6 +48,14 @@ $card-gap: 28px;
     span {
       display: block; 
     }
+
+    a {
+      font-size: $font-size-footer;
+      border-radius: $border-rounded;
+      padding: 0.1vh 28px;
+      text-decoration: none;
+    }
+
   }
 
   &-title {
@@ -105,13 +113,6 @@ $card-gap: 28px;
       &:nth-child(2) {
         grid-column: 6 / 9;
         grid-row: 1; 
-      }
-
-      a {
-        font-size: $font-size-footer;
-        border-radius: $border-rounded;
-        padding: 0.1vh 2vw;
-        text-decoration: none;
       }
 
       &:nth-child(3) {
@@ -185,7 +186,7 @@ $card-gap: 28px;
         }
       }
 
-      span {
+      li {
         font-size: $font-size-header-description;
         padding: 0vh;
       }
@@ -198,10 +199,19 @@ $card-gap: 28px;
     grid-gap: 1rem;
     margin-top: 8vh;
 
-    
+    span {
 
+      &:nth-child(2) {
+        border: $border;
+        grid-column: 1 / 2;
+        grid-row: 2; 
+  
+          a {
+            background: $color-magenta;
+          }
+        }
+    }
   }  
-
 }
 
 //class="card-content-grid"
