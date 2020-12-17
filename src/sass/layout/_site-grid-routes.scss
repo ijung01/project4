@@ -21,7 +21,8 @@
     font-family: "omnium";
     font-weight: 700;
     text-transform: uppercase; 
-    margin-top: 0px; 
+    margin-top: 0; 
+    margin-bottom: 0;
     padding: 0px; 
 }
 
@@ -40,13 +41,12 @@
     }
 }
 
-.search-box-container {
-    border: $border;
+.stops-search-box-container {
+    //border: $border;
     display: grid; 
     grid-template-columns: repeat(11, 1fr);
     grid-template-rows: auto auto;
     grid-gap: 1rem; 
-    margin-bottom: 8vh; 
 }
 
 .stops {
