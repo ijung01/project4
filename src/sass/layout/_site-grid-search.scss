@@ -3,11 +3,9 @@
     grid-row: 1; 
 }
 
-div.content-search-box {
-    border: $border;
-    border-radius: $border-rounded;
+div.content-search-wrapper {
     display: block; 
-    height: 72px;
+    //height: 72px;
     grid-column: 1 / 12;
     grid-row: 2; 
 
@@ -24,10 +22,9 @@ div.content-search-box {
     color: $color-purple;
     font-size: $font-size-body;
     grid-column: 1 / 11;
-    //grid-row: 2; 
+    grid-row: 2; 
     min-height: 72px;
     outline: 0;
-    padding: 1vh;
     transition: 0.3s; 
 
     &:hover,
@@ -43,8 +40,8 @@ div.content-search-box {
     border-radius: $border-rounded;
     color: $color-offwhite;
     font-size: $font-size-body;
-    grid-column: 11 / 12;
-    //grid-row: 2; 
+    grid-column: 10 / 12;
+    grid-row: 2; 
     min-height: 72px;
     outline: 0;
     transition: 0.3s;
