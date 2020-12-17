@@ -28,7 +28,7 @@ form {
 }
 
 input, textarea {
-    background-color: $color-purple-transparent; 
+    background-color: $color-purple-transparent-lighter; 
     border: 0; 
     border-bottom: $border $color-purple; 
     border-radius: $border-rounded; 
@@ -52,7 +52,7 @@ input[type=text], select, textarea {
     background-color: $color-purple; 
     border-radius: $border-rounded;
     color: $color-offwhite; 
-    padding: 2vh; 
+    padding: 1vh 2vw; 
     transition: 0.3s; 
     outline: 0;
 
