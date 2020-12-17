@@ -14,7 +14,7 @@
 
     span {
       font-size: $font-size-header-description;
-      padding: 0vh;
+      //padding: 0;
     }
 
     .time-interval-opg {
@@ -64,39 +64,6 @@
       }
   }
 
-.card-grid-2 {
-      display: grid; 
-      grid-template-columns: repeat(8, 1fr);
-      grid-template-rows: auto auto;
-      grid-gap: 1rem;
-      margin-top: 8vh;  
-
-    li {
-        font-size: $font-size-header-description;
-        padding: 0vh;
-    }
-
-    .schedule-day-week {
-      grid-column: 1 / 4;
-      grid-row: 1;
-    }
-
-    .schedule-day-weekend {
-      grid-column: 1 / 4;
-      grid-row: 2;
-    }
-
-    .schedule-time-week {
-      grid-column: 4 / 9;
-      grid-row: 1;
-    }
-
-    .schedule-time-weekend {
-      grid-column: 4 / 9;
-      grid-row: 2;
-    }
-  }
-
   dl {
     display: grid;
     font-size: $font-size-header-description;
@@ -105,7 +72,7 @@
     padding: 0vh;
   }
 
-.card-grid-3 {
+.card-grid-2 {
     display: grid; 
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto auto;
@@ -124,12 +91,12 @@
 
     li {
       font-size: $font-size-header-description;
-      padding: 0vh;
+      padding: 0;
     }
 
     span {
       font-size: $font-size-header-description;
-      padding: 0vh;
+      padding: 0;
       margin: 0;
     }
 
