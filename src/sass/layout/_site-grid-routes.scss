@@ -30,8 +30,36 @@
     
     &-route-buttons {
         border: $border; 
+        font-size: $font-size-body;
         grid-column: 1 / 3;
         grid-row: 2; 
+
+        li:nth-child(1) {
+            border: $border; 
+
+            &:hover,
+            &:focus,
+            &:active {
+
+                
+            }
+            background: $color-yellow;
+        }
+
+        li:nth-child(2) {
+            border: $border; 
+            background: $color-mint;
+        }
+
+        li:nth-child(3) {
+            border: $border; 
+            background: $color-navy;
+        }
+
+        li:nth-child(4) {
+            border: $border; 
+            background: $color-magenta;
+        }
     }
 
     &-container {
