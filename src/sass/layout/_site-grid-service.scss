@@ -97,6 +97,14 @@
     }
   }
 
+  dl {
+    display: grid;
+    font-size: $font-size-header-description;
+    margin-top: 8vh;  
+    padding: 0vh;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 .card-grid-3 {
     display: grid; 
     grid-template-columns: repeat(8, 1fr);
