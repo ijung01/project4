@@ -1,7 +1,8 @@
 .header-routes-wrapper {
-    //border: 2px solid $color-purple; 
-    grid-column: 1 / 11;
+    border: 2px solid $color-purple; 
+    grid-column: 3 / 11;
     grid-row: 1; 
+    margin-top: 0px;
 }
 
 .link-real-time-arrival {
@@ -44,6 +45,7 @@
     grid-template-columns: repeat(11, 1fr);
     grid-template-rows: auto auto;
     grid-gap: 1rem; 
+    margin-bottom: 8vh; 
 }
 
 .stops {
