@@ -9,6 +9,8 @@ module.exports = function(eleventyConfig) {
   }
   eleventyConfig.addFilter("sortByPageOrder", sortByPageOrder);
 
+  //eleventyConfig.addPassthroughCopy("./src/js/");
+
   return {
     dir: {
       includes: "_includes",
