@@ -37,9 +37,8 @@ input, textarea {
 
 input[type=text], select, textarea {
     box-sizing: border-box;
+    margin-bottom: 1vw; 
     padding: 2vh;
-    margin-top: 6px; 
-    margin-bottom: 16px; 
     resize: vertical;
     width: 100%; 
   }

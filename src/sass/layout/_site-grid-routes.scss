@@ -121,8 +121,9 @@ iframe {
         border: 2px solid $color-purple; 
         border-radius: $border-rounded;
         color: $color-purple;
-        font-size: $font-size-body; 
-        height: 72px;
+        font-size: $font-size-body;
+        margin-top: 0; 
+        min-height: 72px;
         outline: 0;
         padding: 1vh;
         transition: 0.3s; 
@@ -145,6 +146,7 @@ iframe {
         font-size: $font-size-body; 
         grid-column: 11 / 12;
         grid-row: 2; 
+        height: 72px;
         outline: 0;
         transition: 0.3s;
 
