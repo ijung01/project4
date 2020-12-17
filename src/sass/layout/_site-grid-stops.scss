@@ -1,8 +1,11 @@
-display: grid; 
-grid-template-columns: repeat(11, 1fr);
-grid-template-rows: auto auto;
-grid-gap: 1rem; 
-width: 100%; 
+.sit-grid {
+    display: grid; 
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: auto auto;
+    grid-gap: 1rem; 
+    width: 100%; 
+}
+
 
 .header-stops-wrapper {
     grid-column: 1 / 9;
