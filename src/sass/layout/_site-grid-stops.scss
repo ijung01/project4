@@ -30,16 +30,11 @@
 
 button svg {
     height: 1em;
-    background-color: $color-mint;
   }
   
   [aria-expanded="true"] .vert {
     display: none;
   }
-
-.accoridan-route-green {
-    background-color: $color-mint;
-}
 
 .u-button-reset {
     background: transparent;
@@ -50,5 +45,10 @@ button svg {
     font-weight: inherit;
     padding: 0;
     text-align: inherit;
+  }
+
+  .card-accordian-green {
+      background-color: $color-mint; 
+      
   }
   
