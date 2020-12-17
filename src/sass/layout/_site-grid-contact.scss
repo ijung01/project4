@@ -28,35 +28,41 @@
 
 /* Style inputs with type="text", select elements and textareas */
 
-input {
+input, textarea {
     border-radius: $border-rounded; 
+    color: $color-purple;
+    font-family: "noto-sans-display", sans-serif;
+    font-weight: 400;
+    font-size: $font-size-body; 
 }
 
 input[type=text], select, textarea {
     border: 10px solid $color-purple; 
+    box-sizing: border-box;
+    padding: 2vh;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
     width: 100%; 
-    padding: 12px; 
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical 
+    outline: 0;
   }
   
   input[type=submit] {
     background-color: $color-purple; 
-    color: $color-offwhite; 
-    padding: 12px;
+    border: $border; 
     border-radius: $border-rounded;
-    cursor: pointer;
-    transition: 0.3s;
-    outline: 0; 
-}
+    color: $color-offwhite; 
+    padding: 2vh; 
+    transition: 0.3s; 
+    outline: 0;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
         background-color: $color-offwhite;
         color: $color-purple; 
-        border: $border; 
-      }
+        cursor: pointer;
+    }
   }
  
   .container {
