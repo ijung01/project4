@@ -28,4 +28,27 @@
     }
 }
 
+button svg {
+    height: 1em;
+    background-color: $color-mint;
+  }
+  
+  [aria-expanded="true"] .vert {
+    display: none;
+  }
+
+.accoridan-route-green {
+    background-color: $color-mint;
+}
+
+.u-button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+  }
   
