@@ -1,29 +1,10 @@
   <nav class="site-nav-bottom">
       <div class="site-nav-bottom-content">
 
-          <a href="/routes/" class="button-routes-1">
-            View Routes at a Glance
-          </a>
-
-          <a href="/stops/" class="button-stops-1">
-            List of Stops & Locations 
-          </a>
-
-          <a href="/contact/" class="button-contact-1">
-            Contact  
-          </a>
-
-          <a href="/service/" class="button-service-1">
-            Policy 
-          </a>
-
-          <a href="/service/" class="button-service-2">
-            Service Information 
-          </a>
-
-          <a href="/stops/" class="button-stops-2">
-            Download Maps
-          </a>
-
+        {% for item in siteData.navSecondary %}
+          <a href="{{ item.url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>
+            {{ item.title }}
+        </a>
+        {% endfor %}
       </div>
     </nav>

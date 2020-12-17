@@ -1,3 +1,29 @@
 {
-  "name": "Charm City Circulator"
+  "name": "Charm City Circulator",
+  "navSecondary":[
+   {
+     "title":"View Routes at a Glance",
+     "url":"/routes/"
+   },
+   {
+     "title":"List of Stops & Locations",
+     "url":"/stops/"
+   },
+   {
+     "title":"Contact",
+     "url":"/contact/"
+   },
+   {
+     "title":"Policy",
+     "url":"/service/"
+   },
+   {
+     "title":"Service Information",
+     "url":"/service/"
+   },
+   {
+     "title":"Download Maps",
+     "url":"/stops/"
+   }
+  ]
 }
