@@ -17,7 +17,7 @@ div.content-search-wrapper {
 
 .search-box {
     background: $color-purple-transparent-lighter; 
-    border: 5px solid $color-purple; 
+    border: $border $color-purple; 
     border-radius: $border-rounded;
     color: $color-purple;
     font-size: $font-size-body;
@@ -36,7 +36,7 @@ div.content-search-wrapper {
 
 .submit-button {
     background: $color-purple;
-    border: 5px solid $color-purple; 
+    border: $border $color-purple; 
     border-radius: $border-rounded;
     color: $color-offwhite;
     font-size: $font-size-body;

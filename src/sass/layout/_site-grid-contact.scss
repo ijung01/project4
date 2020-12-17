@@ -32,13 +32,13 @@ input, textarea {
     font-family: "noto-sans-display", sans-serif;
     font-weight: 400;
     font-size: $font-size-body; 
+    padding: 1vh 2vw; 
     outline: 0;
 }
 
 input[type=text], select, textarea {
     box-sizing: border-box;
     margin-bottom: 1vw; 
-    padding: 2vh;
     resize: vertical;
     width: 100%; 
   }
