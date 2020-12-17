@@ -115,17 +115,17 @@ iframe {
 .stops {
 
     &-search-box {
-        background: $color-purple-transparent; 
-        border: 5px solid $color-purple; 
+        //background: $color-purple-transparent; 
+        border: 2px solid $color-purple; 
         border-radius: $border-rounded;
         color: $color-purple;
-        font-size: $font-size-header-description;
+        font-size: $font-size-body; 
         height: 72px;
         outline: 0;
         padding: 1vh;
         transition: 0.3s; 
     
-        grid-column: 1 / 9;
+        grid-column: 1 / 11;
         grid-row: 2; 
 
             &:hover,
@@ -137,11 +137,11 @@ iframe {
 
     &-submit-button {
         background: $color-purple;
-        border: 5px solid $color-purple; 
+        border: 2px solid $color-purple; 
         border-radius: $border-rounded;
         color: $color-offwhite;
-        font-size: $font-size-header-description;
-        grid-column: 10 / 12;
+        font-size: $font-size-body; 
+        grid-column: 11 / 12;
         grid-row: 2; 
         outline: 0;
         transition: 0.3s;
