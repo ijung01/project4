@@ -4,19 +4,21 @@
     <nav class="site-nav-top">
       <ul class="u-list-reset">
       {% assign nav = collections.nav | sortByPageOrder %} 
-      {% for item in nav%}
+      {% for item in nav %}
       <li{% if page.url == item.url %} aria-current="page" {% endif %}>
-          <a href="{{ item.url }}">
-            {{ item.data.pageTitle }}
-          </a>
-        </li>
-      {% endfor %}
-      <li>
-        <a href="/search/"><i class="fa fa-search"></i></a>
+        <a href="{{ item.url }}">
+          {% if item.data.pageTitle == "Search" %}
+          <i class="fa fa-search"></i>
+          {% else %}
+          {{ item.data.pageTitle }}
+          {% endif %}
+        </a>
       </li>
+      {% endfor %}  
       </ul>
     </nav>
     
   </header>
 
 
+  
