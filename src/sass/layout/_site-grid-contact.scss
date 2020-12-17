@@ -29,12 +29,11 @@
 /* Style inputs with type="text", select elements and textareas */
 
 input {
-    border: 10px solid $color-purple; 
     border-radius: $border-rounded; 
-    
 }
 
 input[type=text], select, textarea {
+    border: 10px solid $color-purple; 
     width: 100%; 
     padding: 12px; 
     box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -43,21 +42,23 @@ input[type=text], select, textarea {
     resize: vertical 
   }
   
-  /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: $color-purple; 
     color: $color-offwhite; 
-    padding: 12px 20px;
+    padding: 12px;
     border-radius: $border-rounded;
     cursor: pointer;
     transition: 0.3s;
+    outline: 0; 
+}
+
+    &:hover {
+        background-color: $color-offwhite;
+        color: $color-purple; 
+        border: $border; 
+      }
   }
-  
-  input[type=submit]:hover {
-    background-color: $color-offwhite;
-    border: $border; 
-  }
-  
+ 
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
