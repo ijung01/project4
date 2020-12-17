@@ -14,42 +14,42 @@
 
 
 .header-contact-wrapper {
-    //border: 2px solid $color-purple; 
     grid-column: 1 / 12;
     grid-row: 1; 
 }
 
 .content-contact-wrapper {
-    //border: 2px solid $color-purple; 
     grid-column: 1 / 12;
     grid-row: 2; 
 }
 
-
-/* Style inputs with type="text", select elements and textareas */
+form {
+    //border: $border;
+}
 
 input, textarea {
+    background-color: $color-purple-transparent; 
+    border: 0; 
+    border-bottom: $border $color-purple; 
     border-radius: $border-rounded; 
     color: $color-purple;
     font-family: "noto-sans-display", sans-serif;
     font-weight: 400;
     font-size: $font-size-body; 
+    outline: 0;
 }
 
 input[type=text], select, textarea {
-    border: 10px solid $color-purple; 
     box-sizing: border-box;
     padding: 2vh;
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical;
     width: 100%; 
-    outline: 0;
   }
   
   input[type=submit] {
     background-color: $color-purple; 
-    border: $border; 
     border-radius: $border-rounded;
     color: $color-offwhite; 
     padding: 2vh; 
@@ -64,9 +64,12 @@ input[type=text], select, textarea {
         cursor: pointer;
     }
   }
- 
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+
+  textarea {
+      min-height: 300px; 
+
+      &::placeholder {
+        color: $color-purple;
+    }
   }
+
