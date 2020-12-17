@@ -1,8 +1,7 @@
 .header-routes-wrapper {
-    border: 2px solid $color-purple; 
-    grid-column: 3 / 11;
+    //border: 2px solid $color-purple; 
+    grid-column: 1 / 11;
     grid-row: 1; 
-    margin-top: 0px;
 }
 
 .link-real-time-arrival {
@@ -15,6 +14,15 @@
     padding: 0;
     margin: 0;
     }
+}
+
+.header-stops-near-me {
+    font-size: 48px;
+    font-family: "omnium";
+    font-weight: 700;
+    text-transform: uppercase; 
+    margin-top: 0px; 
+    padding: 0px; 
 }
 
 .map-iframe {
@@ -30,13 +38,6 @@
     grid-column: 3 / 12;
     grid-row: 2; 
     }
-}
-
-.header-stops-near-me {
-        font-size: 48px;
-        font-family: "omnium";
-        font-weight: 700;
-        text-transform: uppercase; 
 }
 
 .search-box-container {
