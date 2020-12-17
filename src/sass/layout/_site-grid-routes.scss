@@ -27,6 +27,7 @@
 }
 
 iframe {
+    border-radius: $border-rounded; 
     display: block; 
     min-height: 900px;
     width: 100%;
@@ -98,7 +99,8 @@ iframe {
     }
 
     &-container {
-    border: $border; 
+    border: 2px solid;
+    border-radius: $border-rounded; 
     grid-column: 3 / 12;
     grid-row: 2; 
     }

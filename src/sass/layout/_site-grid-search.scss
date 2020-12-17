@@ -23,8 +23,8 @@ div.content-search-box {
     border: 5px solid $color-purple; 
     border-radius: $border-rounded;
     color: $color-purple;
-    font-size: $font-size-header-description;
-    grid-column: 1 / 9;
+    font-size: $font-size-body;
+    grid-column: 1 / 11;
     grid-row: 2; 
     height: 72px;
     outline: 0;
@@ -43,8 +43,8 @@ div.content-search-box {
     border: 5px solid $color-purple; 
     border-radius: $border-rounded;
     color: $color-offwhite;
-    font-size: $font-size-header-description;
-    grid-column: 9 / 11;
+    font-size: $font-size-body;
+    grid-column: 11 / 12;
     grid-row: 2; 
     outline: 0;
     transition: 0.3s;
