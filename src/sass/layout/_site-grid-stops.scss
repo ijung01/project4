@@ -50,8 +50,23 @@ button svg {
     outline: 0;
   }
 
-  .card-accordian-green {
-      background-color: $color-mint; 
-      color: $color-offwhite; 
-  }
+.card-accordian-green {
+    background-color: $color-mint; 
+    color: $color-offwhite; 
+}
+
+.card-accordian-orange {
+    background-color: $color-yellow; 
+    color: $color-offwhite; 
+}
+
+.card-accordian-purple {
+    background-color: $color-magenta; 
+    color: $color-offwhite; 
+}
+
+.card-accordian-banner {
+    background-color: $color-navy; 
+    color: $color-offwhite; 
+}
   
