@@ -29,6 +29,7 @@
 }
 
 button svg {
+    fill: $color-offwhite; 
     height: 1em;
   }
   
@@ -40,15 +41,17 @@ button svg {
     background: transparent;
     border: 0;
     cursor: pointer;
+    color: $color-offwhite; 
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
     padding: 0;
     text-align: inherit;
+    outline: 0;
   }
 
   .card-accordian-green {
       background-color: $color-mint; 
-      
+      color: $color-offwhite; 
   }
   
