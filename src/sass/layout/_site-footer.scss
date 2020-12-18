@@ -37,7 +37,7 @@
   address {
     font-style: normal; 
     p {
-    font-size: 14px;
+    font-size: $font-size-footer;
     padding: 0px; 
     margin: 0px;
        
@@ -45,7 +45,7 @@
   }
 
   p {
-    font-size: 14px; 
+    font-size: $font-size-footer;
     padding: 0px; 
     margin: 0px;
   }
