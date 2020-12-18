@@ -50,6 +50,10 @@ button svg {
     outline: 0;
   }
 
+.accordian-title {
+    font-size: $font-size-body; 
+}
+
 .card-accordian-green {
     background-color: $color-mint; 
     color: $color-offwhite; 
