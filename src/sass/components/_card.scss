@@ -12,7 +12,7 @@ $card-gap: 28px;
 .card {
   border-radius: $border-rounded;
   border: $border; 
-  //border-right: 5px solid $color-purple;
+  border-right: 5px solid $color-purple;
   margin: $card-gap;
   overflow: hidden;
   position: relative;
