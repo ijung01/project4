@@ -53,6 +53,19 @@ button svg {
 .card-accordian-green {
     background-color: $color-mint; 
     color: $color-offwhite;
+
+    dl {
+        display: grid;
+        font-size: $font-size-list;
+        grid-template-columns: 20% 80%;
+        margin-top: 0vh;  
+        padding: 0vh;
+
+        p {  
+            font-size: $font-size-header-link;
+            font-weight: 300; 
+        }
+    }
 }
 
 .card-accordian-orange {
