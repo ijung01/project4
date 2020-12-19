@@ -2,7 +2,7 @@
 
 (function() {
     // Get all the H2 headings
-    const headings = document.querySelectorAll(".js-accordion h4");
+    const headings = document.querySelectorAll(".js-accordion span");
   
     for (let heading of headings) {
       // Create button element
