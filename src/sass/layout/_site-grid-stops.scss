@@ -50,10 +50,7 @@ button svg {
     outline: 0;
   }
 
-.card-accordian-green {
-    background-color: $color-mint; 
-    color: $color-offwhite;
-
+  .js-accordion {
     dl {
         display: grid;
         font-size: $font-size-list;
@@ -63,9 +60,21 @@ button svg {
 
         p {  
             font-size: $font-size-header-link;
-            font-weight: 300; 
+            font-weight: 300;
+            margin-top: 0;
+            margin-bottom: 1vh;  
         }
     }
+  }
+
+.card {
+    
+}
+
+.card-accordian-green {
+    background-color: $color-mint;
+    color: $color-offwhite;
+    box-shadow: 0vh 0vw 2vh 0.5vw $color-mint;
 }
 
 .card-accordian-orange {
