@@ -30,7 +30,7 @@
 
 button svg {
     fill: $color-offwhite; 
-    height: 0.7em;
+    height: 2em;
   }
   
   [aria-expanded="true"] .vert {
@@ -52,11 +52,7 @@ button svg {
 
 .card-accordian-green {
     background-color: $color-mint; 
-    color: $color-offwhite; 
-
-    span {
-        color: $color-mint; 
-    }
+    color: $color-offwhite;
 }
 
 .card-accordian-orange {
