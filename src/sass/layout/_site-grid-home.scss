@@ -4,11 +4,11 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto auto;
     grid-gap: 1rem; 
-    width: 100%; 
     
     //breakpoint is the min-width
     
-      @media (min-width: 580px) {
+      @media (min-width: 740px) {
+          
         grid-template-columns: repeat(11, 1fr);
         grid-template-rows: auto auto;
         grid-gap: 1rem; 
@@ -19,26 +19,31 @@
 
 .header-home-wrapper {
 
-    grid-column: 1 / 1;
+    grid-column: 1 / 2;
     grid-row: 1; 
+    min-width: 380px;
 
     h2 {
+        //font-size: 54px;
         text-transform: uppercase;
     }
 
-    @media (min-width: 580px) { 
-            grid-column: 1 / 12;
-            grid-row: 1; 
+    @media (min-width: 780px) { 
+
+        grid-column: 1 / 12;
+        grid-row: 1; 
     }
 }
 
 .content-home-wrapper {
 
-    grid-column: 1 / 1;
+    grid-column: 1 / 2;
     grid-row: 2; 
+    min-width: 380px;
 
-    @media (min-width: 580px) {  
-            grid-column: 1 / 8;
-            grid-row: 2; 
+    @media (min-width: 780px) {  
+
+        grid-column: 1 / 12;
+        grid-row: 2; 
     }
 }
