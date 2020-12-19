@@ -1,11 +1,9 @@
 .header-service-wrapper {
-    //border: $border; 
     grid-column: 1 / 11;
     grid-row: 1; 
 }
 
 .card-grid-1 {
-    //border: $border;
     display: grid; 
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: auto auto;
@@ -40,7 +38,7 @@
         grid-column: 2 / 3;
         grid-row: 2; 
 
-        a{
+        a {
           background: $color-magenta;
         }
       }
@@ -49,7 +47,8 @@
         grid-column: 3 / 4;
         grid-row: 2; 
 
-        a{ background: $color-mint;
+        a {
+          background: $color-mint;
         }
       }
   
@@ -57,7 +56,7 @@
         grid-column: 6 / 9;
         grid-row: 2; 
         
-        a{
+        a {
           background: $color-navy;
         }
       }

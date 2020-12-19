@@ -15,10 +15,12 @@
   }
 
   li:first-child {
+    padding-top: 0; 
     margin-right: auto; 
     font-family: "omnium";
     font-size: 28px;
-    font-weight: 900; 
+    font-weight: 900;
+    line-height: 0.9;
   }
 
   li {
@@ -64,21 +66,7 @@
 .site-nav-bottom-content {
   display: flex; 
   flex-wrap: wrap;
-  //justify-content: space-around; 
-
-  //div {
-    //color: $color-text-body; 
-    //border: 2px solid $color-purple; 
-    //border-radius: 12px; 
-    //margin: 0.5vh; 
-    //padding: 1vh 2vw;
-
-    //&:hover,
-   // &:focus {
-      //background-color: $color-purple; 
-    //}
-  //}
-
+  
   a {
     border: 2px solid $color-purple; 
     border-radius: 12px; 
