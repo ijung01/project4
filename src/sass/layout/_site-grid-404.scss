@@ -1,3 +1,12 @@
+.site-grid-404 {
+    display: grid; 
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: auto auto;
+    grid-gap: 1rem; 
+    width: 100%; 
+}
+
+
 .header-404-wrapper {
     //border: 2px solid $color-purple; 
     grid-column: 1 / 11;
