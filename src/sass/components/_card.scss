@@ -14,21 +14,21 @@ $card-gap: 28px;
   border: $border; 
   //border-right: 5px solid $color-purple;
   margin: $card-gap;
-  min-width: 380px;
+  min-width: 370px;
   overflow: hidden;
   position: relative;
   transition: $transition-default;
 
-  @media (max-width: 799px) {
+  @media (max-width: 699px) {
     width: 100%;
-    max-width: 600px;
+    //max-width: 600px;
   }
 
 //breakpoint is the min-width
 
-  @media (min-width: 800px) {
+  @media (min-width: 700px) {
     flex: 1 0 auto;
-    width: 35%;
+    width: 30%;
   }
 
   &-content {
@@ -36,7 +36,7 @@ $card-gap: 28px;
     position: relative;
     z-index: 1;
 
-    @media (min-width: 800px) {
+    @media (min-width: 700px) {
       display: flex;
       flex-direction: column;
       min-height: 220px;
