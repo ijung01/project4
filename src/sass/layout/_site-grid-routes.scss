@@ -1,5 +1,4 @@
 .site-grid-routes {
-
     @media (min-width: 900px) {
         display: grid; 
         grid-template-columns: repeat(11, 1fr);
@@ -7,7 +6,6 @@
         grid-gap: 1rem; 
         width: 100%;  
     }
-     
 }
 
 .header-routes-wrapper {
@@ -41,9 +39,8 @@ iframe {
 .map-iframe {
     
     &-route-buttons {
-
         text-align: center; 
-
+    
         @media (max-width: 899px) {
             display: flex;
             font-size: $font-size-body;
@@ -55,7 +52,6 @@ iframe {
             grid-row: 2;
          }
     
-
         li {
             flex: 1;
             border-radius: $border-rounded; 
@@ -137,7 +133,6 @@ iframe {
 .stops {
 
     &-search-box {
-        //background: $color-purple-transparent; 
         border: 2px solid $color-purple; 
         border-radius: $border-rounded;
         color: $color-purple;
@@ -147,7 +142,7 @@ iframe {
         outline: 0;
         padding: 1vh;
         transition: 0.3s; 
-    
+        
         grid-column: 1 / 11;
         grid-row: 2; 
 
