@@ -1,17 +1,10 @@
 .site-grid {
-    //border: 2px solid $color-purple; 
     display: grid; 
     grid-template-columns: repeat(11, 1fr);
     grid-template-rows: auto auto;
     grid-gap: 1rem; 
     width: 100%; 
-
-    //@media (min-width: 680px) {
-       // flex: 1 0 auto;
-       // width: 30%;
-      //}
 }
-
 
 .header-contact-wrapper {
     grid-column: 1 / 12;
@@ -32,8 +25,8 @@ input, textarea {
     font-family: "noto-sans-display", sans-serif;
     font-weight: 400;
     font-size: $font-size-body; 
-    padding: 1vh 2vw; 
     outline: 0;
+    padding: 1vh 2vw; 
 }
 
 input[type=text], select, textarea {
@@ -47,9 +40,9 @@ input[type=text], select, textarea {
     background-color: $color-purple; 
     border-radius: $border-rounded;
     color: $color-offwhite; 
+    outline: 0;
     padding: 1vh 2vw; 
     transition: 0.3s; 
-    outline: 0;
 
     &:hover,
     &:focus,

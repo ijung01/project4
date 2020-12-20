@@ -15,8 +15,8 @@
     background-repeat: no-repeat, no-repeat;
     background-size: 100% 0%, 0% calc(100% + 2px);
     font-size: $font-size-footer;
-    margin: 0px;
-    padding: 0px; 
+    margin: 0;
+    padding: 0; 
     text-decoration: none;
     transition: all 200ms ease-in-out;
     width: calc(100%);
@@ -41,15 +41,15 @@
     font-style: normal; 
     p {
     font-size: $font-size-footer;
-    margin: 0px;
-    padding: 0px; 
+    margin: 0;
+    padding: 0; 
     }
   }
 
   p {
     font-size: $font-size-footer;
-    margin: 0px;
-    padding: 0px; 
+    margin: 0;
+    padding: 0; 
   }
 }
 
