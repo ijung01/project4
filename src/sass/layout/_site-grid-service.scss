@@ -65,7 +65,7 @@
   dl {
     display: grid;
     font-size: $font-size-header-description;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 40% 60%;
     margin-top: 8vh;  
     padding: 0vh;
   }
@@ -103,10 +103,11 @@
 
     .button-purple-route-closed {
       grid-column: 3 / 4;
-      grid-row: 1; 
+      grid-row: 1;
 
-        a{
+        a {
           background: $color-magenta;
+          min-width: 100px;
         }
     }
 
