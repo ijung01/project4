@@ -19,17 +19,15 @@ body {
 }
 
 main {
-  //flex: 1 0 auto;
   padding: 20vh 10vw 0vh 10vw;
-  //border: 2px solid $color-purple; 
 }
 
 h2 {
   font-family: "omnium", sans-serif;
   font-size: $font-size-header; 
-  margin: 0px; 
-  padding: 0px; 
   line-height: 0.9;
+  margin: 0; 
+  padding: 0; 
 }
 
 h3 {
@@ -56,21 +54,14 @@ p {
 }
 
 code {
-  font-size: 0;
-  width: 1px;
-  height: 1px;
-  display: inline-block;
-  overflow: hidden;
-  position: absolute!important;
-  border: 0!important;
-  padding: 0!important;
-  margin: 0!important;
+  border: 0;
   clip: rect(1px,1px,1px,1px);
+  display: inline-block;
+  font-size: 0;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
-
-//fonts to use 
-// "neue-haas-unica" 
-// "noto-sans-display"
-
-//check borders/margins/paddings
-//border: 2px solid $color-purple;

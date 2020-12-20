@@ -1,26 +1,25 @@
 .site-nav-top {
   background-color: $color-offwhite;
-  //border-bottom: 2px solid $color-purple-transparent; 
-  text-transform: uppercase;
-  font-weight: 700; 
-  padding: 1.5vh 10vw 0vh 10vw;
   border-top: 3vh solid $color-purple;
+  font-weight: 700; 
+  padding: 1.5vh 10vw 0 10vw;
+  text-transform: uppercase;
 
   ul {
     display: flex;
     justify-content: flex-end;
-    padding: 0;
     margin: 0; 
     opacity: 1;
+    padding: 0;
   }
 
   li:first-child {
-    padding-top: 0; 
-    margin-right: auto; 
     font-family: "omnium";
     font-size: 28px;
     font-weight: 900;
     line-height: 0.9;
+    margin-right: auto; 
+    padding-top: 0; 
   }
 
   li {
@@ -37,11 +36,11 @@
     border-bottom: 2px dashed transparent;
     color: $color-text-body;
     display: block;
-    padding-top: 1vh;
     margin-right: 1vh;
+    opacity: 0.5;
+    padding-top: 1vh;
     text-decoration: none;
     transition: $transition-default;
-    opacity: 0.5;
 
     &:hover,
     &:focus {
@@ -58,8 +57,8 @@
 .site-nav-bottom {
   font-size: 28px; 
   font-weight: 500;
-  padding: 10vh 10vw; 
   margin: 0;
+  padding: 10vh 10vw; 
   //border: 2px solid $color-purple; 
 }
 
@@ -73,8 +72,8 @@
     color: $color-text-body;
     display: block; 
     text-decoration: none;
-    margin: 0.5vh; 
     padding: 1vh 2vw;
+    margin: 0.5vh; 
     transition: 0.3s; 
 
     &:hover,

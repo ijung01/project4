@@ -23,8 +23,8 @@
 
     p {
     font-size: $font-size-header-link;
-    padding: 0;
     margin: 0;
+    padding: 0;
     }
 }
 
@@ -45,9 +45,9 @@ button svg {
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
+    outline: 0;
     padding: 0;
     text-align: inherit;
-    outline: 0;
   }
 
   .js-accordion {

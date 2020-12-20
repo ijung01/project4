@@ -1,13 +1,13 @@
 .site-name {
-  font-size: 0;
-  width: 1px;
-  height: 1px;
-  display: inline-block;
-  overflow: hidden;
-  position: absolute!important;
-  border: 0!important;
-  padding: 0!important;
-  margin: 0!important;
+  border: 0;
   clip: rect(1px,1px,1px,1px);
+  display: inline-block;
+  font-size: 0;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
