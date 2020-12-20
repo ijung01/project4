@@ -54,7 +54,11 @@
 }
 
 .site-footer-content {
-  display: flex; 
+
+  @media (min-width: 780px) {
+    display: flex; 
+  }
+
   min-height: 16vh; 
   padding: 4vh 10vw; 
 }
